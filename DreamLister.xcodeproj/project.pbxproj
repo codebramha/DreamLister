@@ -8,22 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		3B7DF15C1DDD1FF7001EF702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7DF15B1DDD1FF7001EF702 /* AppDelegate.swift */; };
-		3B7DF15E1DDD1FF7001EF702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7DF15D1DDD1FF7001EF702 /* ViewController.swift */; };
+		3B7DF15E1DDD1FF7001EF702 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7DF15D1DDD1FF7001EF702 /* MainVC.swift */; };
 		3B7DF1611DDD1FF7001EF702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7DF15F1DDD1FF7001EF702 /* Main.storyboard */; };
 		3B7DF1641DDD1FF7001EF702 /* DreamLister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B7DF1621DDD1FF7001EF702 /* DreamLister.xcdatamodeld */; };
 		3B7DF1661DDD1FF7001EF702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7DF1651DDD1FF7001EF702 /* Assets.xcassets */; };
 		3B7DF1691DDD1FF7001EF702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7DF1671DDD1FF7001EF702 /* LaunchScreen.storyboard */; };
+		3B7DF18A1DDD2722001EF702 /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7DF1821DDD2722001EF702 /* Store+CoreDataClass.swift */; };
+		3B7DF18B1DDD2722001EF702 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7DF1831DDD2722001EF702 /* Store+CoreDataProperties.swift */; };
+		3B7DF18C1DDD2722001EF702 /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7DF1841DDD2722001EF702 /* ItemType+CoreDataClass.swift */; };
+		3B7DF18D1DDD2722001EF702 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7DF1851DDD2722001EF702 /* ItemType+CoreDataProperties.swift */; };
+		3B7DF18E1DDD2722001EF702 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7DF1861DDD2722001EF702 /* Image+CoreDataClass.swift */; };
+		3B7DF18F1DDD2722001EF702 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7DF1871DDD2722001EF702 /* Image+CoreDataProperties.swift */; };
+		3B7DF1901DDD2722001EF702 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7DF1881DDD2722001EF702 /* Item+CoreDataClass.swift */; };
+		3B7DF1911DDD2722001EF702 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7DF1891DDD2722001EF702 /* Item+CoreDataProperties.swift */; };
+		3B7DF1931DDD3412001EF702 /* tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B7DF1921DDD3412001EF702 /* tesla.jpg */; };
+		3B7DF1961DDD348F001EF702 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7DF1951DDD348F001EF702 /* MaterialView.swift */; };
+		3B7DF1981DDD3BA7001EF702 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7DF1971DDD3BA7001EF702 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B7DF1581DDD1FF7001EF702 /* DreamLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7DF15B1DDD1FF7001EF702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B7DF15D1DDD1FF7001EF702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B7DF15D1DDD1FF7001EF702 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		3B7DF1601DDD1FF7001EF702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B7DF1631DDD1FF7001EF702 /* DreamLister.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DreamLister.xcdatamodel; sourceTree = "<group>"; };
 		3B7DF1651DDD1FF7001EF702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B7DF1681DDD1FF7001EF702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B7DF16A1DDD1FF7001EF702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7DF1821DDD2722001EF702 /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B7DF1831DDD2722001EF702 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B7DF1841DDD2722001EF702 /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B7DF1851DDD2722001EF702 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B7DF1861DDD2722001EF702 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B7DF1871DDD2722001EF702 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B7DF1881DDD2722001EF702 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B7DF1891DDD2722001EF702 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B7DF1921DDD3412001EF702 /* tesla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tesla.jpg; sourceTree = "<group>"; };
+		3B7DF1951DDD348F001EF702 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		3B7DF1971DDD3BA7001EF702 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,50 @@
 		3B7DF15A1DDD1FF7001EF702 /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				3B7DF1941DDD345D001EF702 /* view */,
+				3B7DF1801DDD24B8001EF702 /* model */,
 				3B7DF15B1DDD1FF7001EF702 /* AppDelegate.swift */,
-				3B7DF15D1DDD1FF7001EF702 /* ViewController.swift */,
+				3B7DF15D1DDD1FF7001EF702 /* MainVC.swift */,
 				3B7DF15F1DDD1FF7001EF702 /* Main.storyboard */,
 				3B7DF1651DDD1FF7001EF702 /* Assets.xcassets */,
+				3B7DF1921DDD3412001EF702 /* tesla.jpg */,
 				3B7DF1671DDD1FF7001EF702 /* LaunchScreen.storyboard */,
 				3B7DF16A1DDD1FF7001EF702 /* Info.plist */,
 				3B7DF1621DDD1FF7001EF702 /* DreamLister.xcdatamodeld */,
 			);
 			path = DreamLister;
+			sourceTree = "<group>";
+		};
+		3B7DF1801DDD24B8001EF702 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3B7DF1821DDD2722001EF702 /* Store+CoreDataClass.swift */,
+				3B7DF1841DDD2722001EF702 /* ItemType+CoreDataClass.swift */,
+				3B7DF1861DDD2722001EF702 /* Image+CoreDataClass.swift */,
+				3B7DF1881DDD2722001EF702 /* Item+CoreDataClass.swift */,
+				3B7DF1811DDD24C6001EF702 /* generated */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		3B7DF1811DDD24C6001EF702 /* generated */ = {
+			isa = PBXGroup;
+			children = (
+				3B7DF1831DDD2722001EF702 /* Store+CoreDataProperties.swift */,
+				3B7DF1851DDD2722001EF702 /* ItemType+CoreDataProperties.swift */,
+				3B7DF1871DDD2722001EF702 /* Image+CoreDataProperties.swift */,
+				3B7DF1891DDD2722001EF702 /* Item+CoreDataProperties.swift */,
+			);
+			name = generated;
+			sourceTree = "<group>";
+		};
+		3B7DF1941DDD345D001EF702 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3B7DF1951DDD348F001EF702 /* MaterialView.swift */,
+				3B7DF1971DDD3BA7001EF702 /* ItemCell.swift */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B7DF1691DDD1FF7001EF702 /* LaunchScreen.storyboard in Resources */,
+				3B7DF1931DDD3412001EF702 /* tesla.jpg in Resources */,
 				3B7DF1661DDD1FF7001EF702 /* Assets.xcassets in Resources */,
 				3B7DF1611DDD1FF7001EF702 /* Main.storyboard in Resources */,
 			);
@@ -140,8 +198,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B7DF15E1DDD1FF7001EF702 /* ViewController.swift in Sources */,
+				3B7DF1981DDD3BA7001EF702 /* ItemCell.swift in Sources */,
+				3B7DF1901DDD2722001EF702 /* Item+CoreDataClass.swift in Sources */,
+				3B7DF18F1DDD2722001EF702 /* Image+CoreDataProperties.swift in Sources */,
+				3B7DF18C1DDD2722001EF702 /* ItemType+CoreDataClass.swift in Sources */,
+				3B7DF1961DDD348F001EF702 /* MaterialView.swift in Sources */,
+				3B7DF18B1DDD2722001EF702 /* Store+CoreDataProperties.swift in Sources */,
+				3B7DF15E1DDD1FF7001EF702 /* MainVC.swift in Sources */,
+				3B7DF18E1DDD2722001EF702 /* Image+CoreDataClass.swift in Sources */,
+				3B7DF18A1DDD2722001EF702 /* Store+CoreDataClass.swift in Sources */,
 				3B7DF15C1DDD1FF7001EF702 /* AppDelegate.swift in Sources */,
+				3B7DF18D1DDD2722001EF702 /* ItemType+CoreDataProperties.swift in Sources */,
+				3B7DF1911DDD2722001EF702 /* Item+CoreDataProperties.swift in Sources */,
 				3B7DF1641DDD1FF7001EF702 /* DreamLister.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +374,7 @@
 				3B7DF16F1DDD1FF7001EF702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
